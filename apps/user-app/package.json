@@ -9,13 +9,14 @@
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
+    "@disciplineddev/db": "*",
     "@repo/ui": "*",
     "autoprefixer": "^10.4.19",
     "next": "^14.1.1",
+    "next-auth": "^4.24.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tailwindcss": "^3.4.3",
-    "@disciplineddev/db": "*"
+    "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^14.1.1",
